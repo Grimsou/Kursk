@@ -11,7 +11,7 @@ public class VehicleSelection : MonoBehaviour
     {
         if (index < m_vehicleList.Count)
         {
-            PlayerManager.Instance.CreatePlayerData(NetworkManager.Singleton.LocalClient.ClientId, m_vehicleList[index]);
+            //PlayerManager.Instance.CreatePlayerData(NetworkManager.Singleton.LocalClient.ClientId, m_vehicleList[index]);
         }
     }
 }

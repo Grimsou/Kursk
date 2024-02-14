@@ -59,9 +59,9 @@ public class PlayerManager : NetworkBehaviour
 
                 instanceNetworkObject.TrySetParent(tController.gameObject);
 
-                m_playerModel = instanceNetworkObject.GetComponent<TankModel>();
+               //m_playerModel = instanceNetworkObject.GetComponent<TankModel>();
 
-                m_playerModel.SetupPlayerTank(tController);
+               //m_playerModel.SetupPlayerTank(tController);
 
                 tController.m_isSetup = true;
             }
