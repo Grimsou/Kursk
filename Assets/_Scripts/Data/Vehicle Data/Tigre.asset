@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5c194720ecee40845177f0cebb4aa, type: 3}
+  m_Name: Tigre
+  m_EditorClassIdentifier: 
+  m_vehicleName: Tigre
+  m_vehicleIcon: {fileID: 0}
+  m_tankModel: {fileID: 8316563775449815678, guid: c18f6ea373059b843b85a1393b2cd586,
+    type: 3}
+  m_vehicleSpeed: 4.79
+  m_vehicleTurningRate: 7.25
+  m_damagePerSec: 62.7
+  m_turretTurningRate: 4.14
+  m_minElevation: 1
+  m_maxElevation: 11.24
+  m_cannonRotationSpeed: 4.91
